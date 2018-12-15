@@ -1,0 +1,9 @@
+INSERT INTO test_me_db.task (id, title, page_name, level) VALUES (1, 'Завершение программы', 'finish.jsp', -1);
+INSERT INTO test_me_db.task (id, title, page_name, level) VALUES (2, 'Спрятанные данные', 'hidden_data.jsp', 1);
+INSERT INTO test_me_db.task (id, title, page_name, level) VALUES (3, 'Стандартные данные', 'common_data.jsp', 1);
+INSERT INTO test_me_db.task (id, title, page_name, level) VALUES (4, 'Права администратора', 'admin_menu.jsp', 1);
+INSERT INTO test_me_db.task (id, title, page_name, level) VALUES (5, 'Неформатированные теги', 'no_format_text.jsp', 1);
+INSERT INTO test_me_db.task (id, title, page_name, level) VALUES (6, 'Прямая ссылка', 'direct_url.jsp', 2);
+INSERT INTO test_me_db.task (id, title, page_name, level) VALUES (7, 'Исходный код', 'code_concat.jsp', 2);
+INSERT INTO test_me_db.task (id, title, page_name, level) VALUES (8, 'Свой выбор', 'custom_option.jsp', 3);
+INSERT INTO test_me_db.task (id, title, page_name, level) VALUES (9, 'Добавление разметки', 'add_button.jsp', 3);
