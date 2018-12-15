@@ -1,0 +1,113 @@
+<commands>
+
+    <command>
+        <action-name>add_user</action-name>
+        <command-class>by.maria.controller.command.impl.AddUserCommand</command-class>
+    </command>
+
+    <command>
+        <action-name>sign_in</action-name>
+        <command-class>by.maria.controller.command.impl.SignInCommand</command-class>
+    </command>
+
+    <command>
+        <action-name>sign_out</action-name>
+        <command-class>by.maria.controller.command.impl.SignOutCommand</command-class>
+    </command>
+
+    <command>
+        <action-name>sign_up_user</action-name>
+        <command-class>by.maria.controller.command.impl.SignUpUserCommand</command-class>
+    </command>
+
+    <command>
+        <action-name>change_lang</action-name>
+        <command-class>by.maria.controller.command.impl.ChangeLanguageCommand</command-class>
+    </command>
+
+    <command>
+        <action-name>edit_user</action-name>
+        <command-class>by.maria.controller.command.impl.EditUserCommand</command-class>
+    </command>
+
+    <command>
+        <action-name>load_user_image</action-name>
+        <command-class>by.maria.controller.command.impl.LoadUserImageCommand</command-class>
+    </command>
+
+    <command>
+        <action-name>go_new_task</action-name>
+        <command-class>by.maria.controller.command.impl.GetNewTaskCommand</command-class>
+    </command>
+
+    <command>
+        <action-name>get_tip</action-name>
+        <command-class>by.maria.controller.command.impl.GetTipCommand</command-class>
+    </command>
+
+    <command>
+        <action-name>get_free_tip</action-name>
+        <command-class>by.maria.controller.command.impl.GetFreeTipCommand</command-class>
+    </command>
+
+    <command>
+        <action-name>go_task</action-name>
+        <command-class>by.maria.controller.command.impl.GoToTaskCommand</command-class>
+    </command>
+
+    <command>
+        <action-name>solve_hidden_data</action-name>
+        <command-class>by.maria.controller.command.solve.impl.SolveHiddenDataCommand</command-class>
+    </command>
+
+    <command>
+        <action-name>solve_common_data</action-name>
+        <command-class>by.maria.controller.command.solve.impl.SolveCommonDataCommand</command-class>
+    </command>
+
+    <command>
+        <action-name>solve_admin_menu</action-name>
+        <command-class>by.maria.controller.command.solve.impl.SolveAdminMenuCommand</command-class>
+    </command>
+
+    <command>
+        <action-name>solve_format_data</action-name>
+        <command-class>by.maria.controller.command.solve.impl.SolveFormatCommand</command-class>
+    </command>
+
+    <command>
+        <action-name>solve_direct_url</action-name>
+        <command-class>by.maria.controller.command.solve.impl.SolveDirectURLCommand</command-class>
+    </command>
+
+    <command>
+        <action-name>solve_code_concat</action-name>
+        <command-class>by.maria.controller.command.solve.impl.SolveCodeConcatCommand</command-class>
+    </command>
+
+    <command>
+        <action-name>solve_custom_option</action-name>
+        <command-class>by.maria.controller.command.solve.impl.SolveCustomOptionCommand</command-class>
+    </command>
+
+    <command>
+        <action-name>solve_add_button</action-name>
+        <command-class>by.maria.controller.command.solve.impl.SolveAddButtonCommand</command-class>
+    </command>
+
+    <command>
+        <action-name>get_result</action-name>
+        <command-class>by.maria.controller.command.impl.GetResultCommand</command-class>
+    </command>
+
+    <command>
+        <action-name>get_time_count</action-name>
+        <command-class>by.maria.controller.command.impl.GetTimeCountPointsCommand</command-class>
+    </command>
+
+    <command>
+        <action-name>get_task_mark</action-name>
+        <command-class>by.maria.controller.command.impl.GetTaskMarkPointsCommand</command-class>
+    </command>
+
+</commands>

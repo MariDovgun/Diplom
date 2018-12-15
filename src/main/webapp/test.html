@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script id="draw-time" type="text/javascript">
+        var timePoints;
+
+        function drawTimeChart() {
+
+            var data = new google.visualization.DataTable();
+            data.addColumn('number', 'Count');
+            data.addColumn('timeofday', 'Time');
+
+            for(var i=0; i<timePoints.length; i++){
+                var time=timePoints[i].time;
+                data.addRow([
+                    timePoints[i].count,
+                    [Math.trunc(time/3600),Math.trunc(time/60),time%60]
+                ])
+            }
+
+
+
+            var options = {
+                hAxis: {
+                    title: 'Count'
+                },
+                vAxis: {
+                    title: 'Time'
+                }
+            };
+
+            var chart = new google.visualization.LineChart(document.getElementById('time_count'));
+
+            chart.draw(data, options);
+        }
+
+        $(document).ready(function () {
+            $.ajax({
+                type: 'POST',
+                url: 'start',
+                data: 'action=get_time_count',
+                success: function (data) {
+
+                    timePoints=JSON.parse(data);
+                    google.charts.load('current', {packages: ['corechart', 'line']});
+                    google.charts.setOnLoadCallback(drawTimeChart);
+                },
+                error: function (xhr, str) {
+                    alert('Возникла ошибка!');
+                }
+            });
+        });
+    </script>
+    <script id="draw-mark">
+        var markPoints;
+
+        function drawMarkChart() {
+
+            var data = new google.visualization.DataTable();
+            data.addColumn('string', 'Task');
+            data.addColumn('number', 'Mark');
+
+            for(var i=0; i<markPoints.length; i++){
+                data.addRow([
+                    markPoints[i].task,
+                    markPoints[i].mark
+                ])
+            }
+
+
+
+            var options = {
+
+            };
+
+            var chart = new google.visualization.ColumnChart(document.getElementById('task_mark'));
+
+            chart.draw(data, options);
+        }
+
+        $(document).ready(function () {
+            $.ajax({
+                type: 'POST',
+                url: 'start',
+                data: 'action=get_task_mark',
+                success: function (data) {
+
+                    markPoints=JSON.parse(data);
+                    google.charts.load('current', {packages: ['corechart', 'line']});
+                    google.charts.setOnLoadCallback(drawMarkChart);
+                },
+                error: function (xhr, str) {
+                    alert('Возникла ошибка!');
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+<div id="time_count" style="width: 900px; height: 500px"></div>
+<div id="task_mark" style="width: 900px; height: 500px"></div>
+</body>
+</html>

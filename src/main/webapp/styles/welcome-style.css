@@ -1,0 +1,31 @@
+.welcome{
+    width: 80%;
+    height: 100%;
+    margin: 80px auto;
+    font-family: Arial;
+    color: #595248;
+}
+
+.welcome h3{
+    font-size: 36pt;
+}
+
+.welcome p{
+    font-size: 14pt;
+    line-height: 130%;
+    height: 100%;
+}
+
+.welcome-text{
+    border: 1px solid #a39b88;
+    height: 50%;
+    padding: 10px;
+    max-height: 500px;
+    overflow-y: scroll;
+}
+
+#start-button{
+    float: right;
+}
+
+

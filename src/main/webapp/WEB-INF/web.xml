@@ -1,0 +1,114 @@
+<!DOCTYPE web-app PUBLIC
+        "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+        "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app
+        xmlns="http://java.sun.com/xml/ns/j2ee"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
+        version="2.4">
+
+    <display-name>Archetype Created Web Application</display-name>
+
+    <filter>
+        <filter-name>CharsetFilter</filter-name>
+        <filter-class>by.maria.controller.filter.CharsetFilter</filter-class>
+        <init-param>
+            <param-name>characterEncoding</param-name>
+            <param-value>UTF-8</param-value>
+        </init-param>
+    </filter>
+
+    <filter-mapping>
+        <filter-name>CharsetFilter</filter-name>
+        <servlet-name>Controller</servlet-name>
+    </filter-mapping>
+
+    <filter>
+        <filter-name>NewTaskFilter</filter-name>
+        <filter-class>by.maria.controller.filter.NewTaskFilter</filter-class>
+    </filter>
+
+    <filter-mapping>
+        <filter-name>NewTaskFilter</filter-name>
+        <servlet-name>Controller</servlet-name>
+    </filter-mapping>
+
+    <filter>
+        <filter-name>StartFilter</filter-name>
+        <filter-class>by.maria.controller.filter.StartFilter</filter-class>
+    </filter>
+
+    <filter-mapping>
+        <filter-name>StartFilter</filter-name>
+        <url-pattern>/welcome</url-pattern>
+    </filter-mapping>
+
+    <filter>
+        <filter-name>DirectURLFilter</filter-name>
+        <filter-class>by.maria.controller.filter.DirectURLFilter</filter-class>
+    </filter>
+
+    <filter-mapping>
+        <filter-name>DirectURLFilter</filter-name>
+        <url-pattern>/menu</url-pattern>
+    </filter-mapping>
+
+    <error-page>
+        <exception-type>java.lang.Throwable</exception-type>
+        <location>/error</location>
+    </error-page>
+
+
+    <servlet>
+        <servlet-name>Controller</servlet-name>
+        <servlet-class>by.maria.controller.Controller</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Controller</servlet-name>
+        <url-pattern>/start</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ImageLoader</servlet-name>
+        <servlet-class>by.maria.controller.ImageLoader</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ImageLoader</servlet-name>
+        <url-pattern>/load</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Welcome</servlet-name>
+        <jsp-file>/WEB-INF/welcome.jsp</jsp-file>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Welcome</servlet-name>
+        <url-pattern>/welcome</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ErrorHandler</servlet-name>
+        <servlet-class>by.maria.controller.ErrorHandler</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>DirectUrlMenu</servlet-name>
+        <jsp-file>/WEB-INF/direct_url_menu.jsp</jsp-file>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>DirectUrlMenu</servlet-name>
+        <url-pattern>/menu</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>ErrorHandler</servlet-name>
+        <url-pattern>/error</url-pattern>
+    </servlet-mapping>
+
+
+</web-app>

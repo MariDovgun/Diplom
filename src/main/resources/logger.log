@@ -1,0 +1,165 @@
+10/12/2018 10:10 [http-nio-8080-exec-7] INFO - <Start Servlet>
+10/12/2018 10:10 [http-nio-8080-exec-1] INFO - <Charset was set.>
+10/12/2018 10:10 [http-nio-8080-exec-1] INFO - <Start Servlet>
+10/12/2018 10:10 [http-nio-8080-exec-2] INFO - <Charset was set.>
+10/12/2018 10:10 [http-nio-8080-exec-2] INFO - <Start Servlet>
+10/12/2018 10:10 [http-nio-8080-exec-2] INFO - <Charset was set.>
+10/12/2018 10:10 [http-nio-8080-exec-2] INFO - <Start Servlet>
+10/12/2018 10:12 [http-nio-8080-exec-4] INFO - <Charset was set.>
+10/12/2018 10:12 [http-nio-8080-exec-4] INFO - <Start Servlet>
+10/12/2018 10:12 [http-nio-8080-exec-4] ERROR - <DAOException: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1-2' for key 'PRIMARY'>
+10/12/2018 10:16 [http-nio-8080-exec-9] INFO - <Start Servlet>
+10/12/2018 10:17 [http-nio-8080-exec-5] INFO - <Charset was set.>
+10/12/2018 10:17 [http-nio-8080-exec-5] INFO - <Start Servlet>
+10/12/2018 10:17 [http-nio-8080-exec-10] INFO - <Charset was set.>
+10/12/2018 10:17 [http-nio-8080-exec-10] INFO - <Start Servlet>
+10/12/2018 10:17 [http-nio-8080-exec-1] INFO - <Charset was set.>
+10/12/2018 10:17 [http-nio-8080-exec-1] INFO - <Start Servlet>
+10/12/2018 10:18 [http-nio-8080-exec-1] ERROR - <DAOException: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1-4' for key 'PRIMARY'>
+10/12/2018 10:19 [http-nio-8080-exec-5] INFO - <Charset was set.>
+10/12/2018 10:19 [http-nio-8080-exec-5] INFO - <Start Servlet>
+10/12/2018 10:19 [http-nio-8080-exec-10] INFO - <Charset was set.>
+10/12/2018 10:19 [http-nio-8080-exec-10] INFO - <Start Servlet>
+10/12/2018 10:19 [http-nio-8080-exec-6] INFO - <Charset was set.>
+10/12/2018 10:19 [http-nio-8080-exec-6] INFO - <Start Servlet>
+10/12/2018 10:19 [http-nio-8080-exec-5] INFO - <Charset was set.>
+10/12/2018 10:19 [http-nio-8080-exec-5] INFO - <Start Servlet>
+10/12/2018 10:19 [http-nio-8080-exec-10] INFO - <Charset was set.>
+10/12/2018 10:19 [http-nio-8080-exec-10] INFO - <Start Servlet>
+10/12/2018 10:19 [http-nio-8080-exec-6] INFO - <Charset was set.>
+10/12/2018 10:19 [http-nio-8080-exec-6] INFO - <Start Servlet>
+10/12/2018 10:20 [http-nio-8080-exec-8] INFO - <Charset was set.>
+10/12/2018 10:20 [http-nio-8080-exec-8] INFO - <Start Servlet>
+10/12/2018 10:20 [http-nio-8080-exec-4] INFO - <Charset was set.>
+10/12/2018 10:20 [http-nio-8080-exec-4] INFO - <Start Servlet>
+10/12/2018 10:20 [http-nio-8080-exec-5] INFO - <Charset was set.>
+10/12/2018 10:20 [http-nio-8080-exec-5] INFO - <Start Servlet>
+10/12/2018 10:20 [http-nio-8080-exec-10] INFO - <Charset was set.>
+10/12/2018 10:20 [http-nio-8080-exec-10] INFO - <Start Servlet>
+10/12/2018 10:20 [http-nio-8080-exec-7] INFO - <Charset was set.>
+10/12/2018 10:20 [http-nio-8080-exec-7] INFO - <Start Servlet>
+10/12/2018 10:20 [http-nio-8080-exec-9] INFO - <Charset was set.>
+10/12/2018 10:20 [http-nio-8080-exec-9] INFO - <Start Servlet>
+10/12/2018 10:20 [http-nio-8080-exec-3] INFO - <Charset was set.>
+10/12/2018 10:20 [http-nio-8080-exec-3] INFO - <Start Servlet>
+10/12/2018 10:21 [http-nio-8080-exec-10] INFO - <Charset was set.>
+10/12/2018 10:21 [http-nio-8080-exec-10] INFO - <Start Servlet>
+10/12/2018 10:21 [http-nio-8080-exec-6] INFO - <Charset was set.>
+10/12/2018 10:21 [http-nio-8080-exec-6] INFO - <Start Servlet>
+10/12/2018 10:21 [http-nio-8080-exec-7] INFO - <Charset was set.>
+10/12/2018 10:21 [http-nio-8080-exec-7] INFO - <Start Servlet>
+10/12/2018 10:21 [http-nio-8080-exec-3] INFO - <Charset was set.>
+10/12/2018 10:21 [http-nio-8080-exec-3] INFO - <Start Servlet>
+10/12/2018 10:21 [http-nio-8080-exec-1] INFO - <Charset was set.>
+10/12/2018 10:21 [http-nio-8080-exec-1] INFO - <Start Servlet>
+10/12/2018 10:24 [http-nio-8080-exec-3] INFO - <Charset was set.>
+10/12/2018 10:24 [http-nio-8080-exec-3] INFO - <Start Servlet>
+10/12/2018 10:24 [http-nio-8080-exec-4] INFO - <Charset was set.>
+10/12/2018 10:24 [http-nio-8080-exec-4] INFO - <Start Servlet>
+10/12/2018 10:24 [http-nio-8080-exec-1] INFO - <Charset was set.>
+10/12/2018 10:25 [http-nio-8080-exec-5] INFO - <Charset was set.>
+10/12/2018 10:25 [http-nio-8080-exec-6] INFO - <Charset was set.>
+10/12/2018 10:25 [http-nio-8080-exec-10] INFO - <Charset was set.>
+10/12/2018 10:25 [http-nio-8080-exec-7] INFO - <Charset was set.>
+10/12/2018 10:25 [http-nio-8080-exec-6] INFO - <Start Servlet>
+10/12/2018 10:25 [http-nio-8080-exec-8] INFO - <Charset was set.>
+10/12/2018 10:25 [http-nio-8080-exec-10] INFO - <Start Servlet>
+10/12/2018 10:25 [http-nio-8080-exec-4] ERROR - <DAOException: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1-7' for key 'PRIMARY'>
+10/12/2018 10:25 [http-nio-8080-exec-7] INFO - <Start Servlet>
+10/12/2018 10:25 [http-nio-8080-exec-8] INFO - <Start Servlet>
+10/12/2018 10:25 [http-nio-8080-exec-5] INFO - <Start Servlet>
+10/12/2018 10:25 [http-nio-8080-exec-1] INFO - <Start Servlet>
+10/12/2018 10:25 [http-nio-8080-exec-9] INFO - <Charset was set.>
+10/12/2018 10:25 [http-nio-8080-exec-9] INFO - <Start Servlet>
+10/12/2018 10:25 [http-nio-8080-exec-1] INFO - <Charset was set.>
+10/12/2018 10:25 [http-nio-8080-exec-1] INFO - <Start Servlet>
+10/12/2018 10:25 [http-nio-8080-exec-8] INFO - <Charset was set.>
+10/12/2018 10:25 [http-nio-8080-exec-8] INFO - <Start Servlet>
+10/12/2018 10:26 [http-nio-8080-exec-5] INFO - <Charset was set.>
+10/12/2018 10:26 [http-nio-8080-exec-5] INFO - <Start Servlet>
+10/12/2018 10:26 [http-nio-8080-exec-10] INFO - <Charset was set.>
+10/12/2018 10:26 [http-nio-8080-exec-10] INFO - <Start Servlet>
+10/12/2018 10:26 [http-nio-8080-exec-6] INFO - <Charset was set.>
+10/12/2018 10:26 [http-nio-8080-exec-6] INFO - <Start Servlet>
+10/12/2018 10:26 [http-nio-8080-exec-2] INFO - <Charset was set.>
+10/12/2018 10:26 [http-nio-8080-exec-2] INFO - <Start Servlet>
+10/12/2018 10:26 [http-nio-8080-exec-4] INFO - <Charset was set.>
+10/12/2018 10:26 [http-nio-8080-exec-4] INFO - <Start Servlet>
+10/12/2018 10:26 [http-nio-8080-exec-7] INFO - <Charset was set.>
+10/12/2018 10:26 [http-nio-8080-exec-7] INFO - <Start Servlet>
+10/12/2018 10:26 [http-nio-8080-exec-8] INFO - <Charset was set.>
+10/12/2018 10:26 [http-nio-8080-exec-8] INFO - <Start Servlet>
+10/12/2018 10:26 [http-nio-8080-exec-5] INFO - <Charset was set.>
+10/12/2018 10:26 [http-nio-8080-exec-5] INFO - <Start Servlet>
+10/12/2018 10:27 [http-nio-8080-exec-2] INFO - <Charset was set.>
+10/12/2018 10:27 [http-nio-8080-exec-2] INFO - <Start Servlet>
+10/12/2018 10:27 [http-nio-8080-exec-7] INFO - <Charset was set.>
+10/12/2018 10:27 [http-nio-8080-exec-7] INFO - <Start Servlet>
+10/12/2018 10:27 [http-nio-8080-exec-4] INFO - <Charset was set.>
+10/12/2018 10:27 [http-nio-8080-exec-4] INFO - <Start Servlet>
+10/12/2018 10:27 [http-nio-8080-exec-10] INFO - <Charset was set.>
+10/12/2018 10:27 [http-nio-8080-exec-10] INFO - <Start Servlet>
+10/12/2018 10:27 [http-nio-8080-exec-7] INFO - <Charset was set.>
+10/12/2018 10:27 [http-nio-8080-exec-7] INFO - <Start Servlet>
+10/12/2018 10:28 [http-nio-8080-exec-9] INFO - <Charset was set.>
+10/12/2018 10:28 [http-nio-8080-exec-9] INFO - <Start Servlet>
+10/12/2018 10:28 [http-nio-8080-exec-6] INFO - <Charset was set.>
+10/12/2018 10:28 [http-nio-8080-exec-6] INFO - <Start Servlet>
+10/12/2018 10:33 [http-nio-8080-exec-9] INFO - <Charset was set.>
+10/12/2018 10:33 [http-nio-8080-exec-9] INFO - <Start Servlet>
+10/12/2018 10:33 [http-nio-8080-exec-6] INFO - <Charset was set.>
+10/12/2018 10:33 [http-nio-8080-exec-6] INFO - <Start Servlet>
+10/12/2018 10:33 [http-nio-8080-exec-2] INFO - <Charset was set.>
+10/12/2018 10:33 [http-nio-8080-exec-2] INFO - <Start Servlet>
+10/12/2018 10:34 [http-nio-8080-exec-8] INFO - <Charset was set.>
+10/12/2018 10:34 [http-nio-8080-exec-8] INFO - <Start Servlet>
+10/12/2018 10:34 [http-nio-8080-exec-6] INFO - <Charset was set.>
+10/12/2018 10:34 [http-nio-8080-exec-6] INFO - <Start Servlet>
+10/12/2018 10:34 [http-nio-8080-exec-2] INFO - <Charset was set.>
+10/12/2018 10:34 [http-nio-8080-exec-2] INFO - <Start Servlet>
+10/12/2018 10:34 [http-nio-8080-exec-5] INFO - <Charset was set.>
+10/12/2018 10:34 [http-nio-8080-exec-5] INFO - <Start Servlet>
+10/12/2018 10:34 [http-nio-8080-exec-8] INFO - <Charset was set.>
+10/12/2018 10:34 [http-nio-8080-exec-8] INFO - <Start Servlet>
+10/12/2018 10:34 [http-nio-8080-exec-9] INFO - <Charset was set.>
+10/12/2018 10:34 [http-nio-8080-exec-9] INFO - <Start Servlet>
+10/12/2018 10:35 [http-nio-8080-exec-6] INFO - <Charset was set.>
+10/12/2018 10:35 [http-nio-8080-exec-6] INFO - <Start Servlet>
+10/12/2018 10:35 [http-nio-8080-exec-7] INFO - <Charset was set.>
+10/12/2018 10:35 [http-nio-8080-exec-7] INFO - <Start Servlet>
+10/12/2018 10:35 [http-nio-8080-exec-5] INFO - <Charset was set.>
+10/12/2018 10:35 [http-nio-8080-exec-5] INFO - <Start Servlet>
+10/12/2018 10:35 [http-nio-8080-exec-8] INFO - <Charset was set.>
+10/12/2018 10:35 [http-nio-8080-exec-8] INFO - <Start Servlet>
+10/12/2018 10:35 [http-nio-8080-exec-2] INFO - <Charset was set.>
+10/12/2018 10:35 [http-nio-8080-exec-2] INFO - <Start Servlet>
+10/12/2018 10:36 [http-nio-8080-exec-4] INFO - <Charset was set.>
+10/12/2018 10:36 [http-nio-8080-exec-4] INFO - <Start Servlet>
+10/12/2018 10:36 [http-nio-8080-exec-8] INFO - <Charset was set.>
+10/12/2018 10:36 [http-nio-8080-exec-8] INFO - <Start Servlet>
+10/12/2018 10:36 [http-nio-8080-exec-2] INFO - <Charset was set.>
+10/12/2018 10:36 [http-nio-8080-exec-2] INFO - <Start Servlet>
+10/12/2018 10:36 [http-nio-8080-exec-7] INFO - <Charset was set.>
+10/12/2018 10:36 [http-nio-8080-exec-7] INFO - <Start Servlet>
+10/12/2018 10:36 [http-nio-8080-exec-3] INFO - <Charset was set.>
+10/12/2018 10:36 [http-nio-8080-exec-3] INFO - <Start Servlet>
+13/12/2018 10:13 [http-nio-8080-exec-9] INFO - <Start Servlet>
+13/12/2018 10:13 [http-nio-8080-exec-4] INFO - <Charset was set.>
+13/12/2018 10:13 [http-nio-8080-exec-4] INFO - <Start Servlet>
+13/12/2018 10:13 [http-nio-8080-exec-6] INFO - <Charset was set.>
+13/12/2018 10:13 [http-nio-8080-exec-6] INFO - <Start Servlet>
+13/12/2018 10:14 [http-nio-8080-exec-4] INFO - <Charset was set.>
+13/12/2018 10:14 [http-nio-8080-exec-4] INFO - <Start Servlet>
+13/12/2018 10:14 [http-nio-8080-exec-8] INFO - <Charset was set.>
+13/12/2018 10:14 [http-nio-8080-exec-8] INFO - <Start Servlet>
+13/12/2018 10:14 [http-nio-8080-exec-7] INFO - <Charset was set.>
+13/12/2018 10:14 [http-nio-8080-exec-7] INFO - <Start Servlet>
+13/12/2018 10:14 [http-nio-8080-exec-1] INFO - <Charset was set.>
+13/12/2018 10:14 [http-nio-8080-exec-1] INFO - <Start Servlet>
+13/12/2018 10:14 [http-nio-8080-exec-10] INFO - <Charset was set.>
+13/12/2018 10:14 [http-nio-8080-exec-10] INFO - <Start Servlet>
+13/12/2018 10:15 [http-nio-8080-exec-5] INFO - <Charset was set.>
+13/12/2018 10:15 [http-nio-8080-exec-5] INFO - <Start Servlet>
+13/12/2018 10:15 [http-nio-8080-exec-2] INFO - <Charset was set.>
+13/12/2018 10:15 [http-nio-8080-exec-2] INFO - <Start Servlet>
+13/12/2018 10:15 [http-nio-8080-exec-2] ERROR - <DAOException: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1-5' for key 'PRIMARY'>
